@@ -13,7 +13,6 @@
       "description": "Automerge trusted actions sooner",
       "matchManagers": ["github-actions"],
       "matchPackageNames": [
-        "/^bpg-labs\//",
         "/^actions\//"
       ],
       "automerge": true,

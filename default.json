@@ -1,19 +1,18 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:best-practices",
-    ":dependencyDashboard",
+    "config:recommended",
+    ":configMigration",
+    ":disableDependencyDashboard",
     ":disableRateLimiting",
     "docker:enableMajor",
     ":automergeDigest",
     ":enablePreCommit",
-    "github>bpg/renovate-config:commit-message",
-    "github>bpg/renovate-config:pr-labels",
-    "github>bpg/renovate-config:semantic-commits",
-    "github>bpg/renovate-config:custom-managers.json5"
+    "github>plopoyop/renovate-config:commit-message",
+    "github>plopoyop/renovate-config:pr-labels",
+    "github>plopoyop/renovate-config:semantic-commits"
   ],
-  "timezone": "America/Toronto",
-  "schedule": ["before 6am on saturday"],
+  "timezone": "Europe/Paris",
   "dependencyDashboardTitle": ":robot: Renovate Dashboard",
   "suppressNotifications": ["prIgnoreNotification"],
   "commitBodyTable": true,

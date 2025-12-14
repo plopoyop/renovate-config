@@ -10,7 +10,8 @@
     ":enablePreCommit",
     "github>plopoyop/renovate-config:commit-message",
     "github>plopoyop/renovate-config:pr-labels",
-    "github>plopoyop/renovate-config:semantic-commits"
+    "github>plopoyop/renovate-config:semantic-commits",
+    "github>plopoyop/renovate-config:automerge-github-actions"
   ],
   "timezone": "Europe/Paris",
   "dependencyDashboardTitle": ":robot: Renovate Dashboard",

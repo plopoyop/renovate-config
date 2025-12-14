@@ -2,18 +2,22 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
+      "matchDatasources": ["helm"],
       "matchUpdateTypes": ["major"],
       "labels": ["major", "dependency"]
     },
     {
+      "matchDatasources": ["helm"],
       "matchUpdateTypes": ["minor"],
       "labels": ["minor", "dependency"]
     },
     {
+      "matchDatasources": ["helm"],
       "matchUpdateTypes": ["patch"],
       "labels": ["patch", "dependency"]
     },
     {
+      "matchDatasources": ["helm"],
       "matchUpdateTypes": ["digest"],
       "labels": ["digest", "dependency"]
     },

@@ -4,7 +4,7 @@
     {
       "matchManagers": ["devbox"],
       "automerge": true,
-      "automergeType": "branch",
+      "automergeType": "pr",
       "matchUpdateTypes": ["minor", "patch"],
       "minimumReleaseAge": "3 days",
       "ignoreTests": true
